@@ -133,7 +133,7 @@ public class MainActivity extends AppCompatActivity {
 
 
                 List<String> functionParameters = new ArrayList<String>();
-                functionParameters.add("off");
+//                functionParameters.add("off");
                 try {
                     mDevice.callFunction("turnLightsOff",functionParameters);
 
